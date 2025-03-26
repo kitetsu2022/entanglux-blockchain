@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-neutral;
+  }
+}
+
+@layer components {
+  .btn-large {
+    @apply px-6 py-3 text-lg font-semibold rounded-lg;
+  }
+}
